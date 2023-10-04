@@ -4,7 +4,7 @@
 ARCH=$(uname -m)
 OS=$(uname -s| tr '[:upper:]' '[:lower:]')
 VERSION="1.6.2"
-NOMAD_ADDR=http://127.0.0.1:4646
+export NOMAD_ADDR=http://127.0.0.1:4646
 
 ## Download Nomad
 
